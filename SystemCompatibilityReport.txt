@@ -1,0 +1,170 @@
+____________________________________________________________________________
+
+System Components:
+
+Operating System    Windows v.10.0.19045.1
+----------------------------------------------------------------------------
+	No conflicts to report.
+
+Video    Intel(R) HD Graphics 5500 v.20.19.15.4835
+----------------------------------------------------------------------------
+1.	The current version of your Intel display driver may cause performance and stability issues.  It is strongly recommended that you update to driver version 100.8476 or later.  Drivers are provided by Intel or your computer's manufacturer.
+	URL: https://helpx.adobe.com/premiere-pro/kb/drivers-video-win-intel.html
+
+Audio    Realtek Audio v.6.0.1.6105
+----------------------------------------------------------------------------
+	No conflicts to report.
+
+Audio    TWS V5.1 Hands-Free AG Audio v.10.0.19041.3636
+----------------------------------------------------------------------------
+	No conflicts to report.
+
+Audio    TWS V5.1 Stereo v.10.0.19041.1
+----------------------------------------------------------------------------
+	No conflicts to report.
+
+Network    Bluetooth Device (Personal Area Network) v.10.0.19041.3636
+----------------------------------------------------------------------------
+	No conflicts to report.
+
+Network    Intel(R) Dual Band Wireless-AC 7265 v.19.51.29.1
+----------------------------------------------------------------------------
+	No conflicts to report.
+
+Network    Intel(R) Ethernet Connection (3) I218-LM v.12.13.17.4
+----------------------------------------------------------------------------
+	No conflicts to report.
+
+Network    Microsoft Kernel Debug Network Adapter v.10.0.19041.1
+----------------------------------------------------------------------------
+	No conflicts to report.
+
+Network    Microsoft Wi-Fi Direct Virtual Adapter v.10.0.19041.1
+----------------------------------------------------------------------------
+	No conflicts to report.
+
+Network    Microsoft Wi-Fi Direct Virtual Adapter #2 v.10.0.19041.1
+----------------------------------------------------------------------------
+	No conflicts to report.
+
+Network    WAN Miniport (IKEv2) v.10.0.19041.1
+----------------------------------------------------------------------------
+	No conflicts to report.
+
+Network    WAN Miniport (IP) v.10.0.19041.1
+----------------------------------------------------------------------------
+	No conflicts to report.
+
+Network    WAN Miniport (IPv6) v.10.0.19041.1
+----------------------------------------------------------------------------
+	No conflicts to report.
+
+Network    WAN Miniport (L2TP) v.10.0.19041.1
+----------------------------------------------------------------------------
+	No conflicts to report.
+
+Network    WAN Miniport (Network Monitor) v.10.0.19041.1
+----------------------------------------------------------------------------
+	No conflicts to report.
+
+Network    WAN Miniport (PPPOE) v.10.0.19041.1
+----------------------------------------------------------------------------
+	No conflicts to report.
+
+Network    WAN Miniport (PPTP) v.10.0.19041.1
+----------------------------------------------------------------------------
+	No conflicts to report.
+
+Network    WAN Miniport (SSTP) v.10.0.19041.1
+----------------------------------------------------------------------------
+	No conflicts to report.
+
+
+____________________________________________________________________________
+
+Analyzing project: Crash.prproj
+	Details in file "SystemCompatibilityReport.ProjectAnalysis.txt"
+    No errors were found.
+
+____________________________________________________________________________
+
+GPU Sniffer Log:
+GPUSniffer launching with test mask 62
+GPU Sniffer Output: 
+GPUSniffer testing 62
+Initializing GPU Tech:
+	Try CUDA: 1
+	Try OpenCL: 1
+	Try Metal: 0
+	Try Vulkan: 0
+	KernelLoadAction: 0
+	UseOpenGLContext: 0000000000000000
+	UseDeviceContext: 0000000000000000
+	UseD3D11Context: 0000000000000000
+No CUDA devices Found
+OpenCL system device count: 1
+	Found OpenCL device Name: Intel(R) HD Graphics 5500 supportsSSG: 0
+	    No capability restrictions detected - adding device to list
+Finished gpu initialization in 374.074 ms
+
+--- OpenGL Info ---
+Vendor: Intel
+Renderer: Intel(R) HD Graphics 5500
+OpenGL Version: 4.4.0 - Build 20.19.15.4835 20.19.15.4835
+GLSL Version: 4.40 - Build 20.19.15.4835
+Monitors: 1
+Monitor 0 properties -
+   Size: (0, 0, 1366, 768)
+   Max texture size: 16384
+   Supports non-power of two: 1
+   Shaders 444: 1
+   Shaders 422: 1
+   Shaders 420: 1
+
+
+--- GPU Computation Info ---
+Found 1 devices supporting GPU computation.
+OpenCL Device 0
+   Name: Intel(R) HD Graphics 5500
+   Vendor: Intel
+	Integrated: 1
+   Capability: 2
+   Driver: 2
+   Total Video Memory: 3217MB
+GPU Sniffer result: 46
+
+
+____________________________________________________________________________
+
+In Process GPU Initialization Log:
+Initializing GPU Tech:
+	Try CUDA: 0
+	Try OpenCL: 1
+	Try Metal: 0
+	Try Vulkan: 0
+	KernelLoadAction: 2
+	UseOpenGLContext: 0000000000000000
+	UseDeviceContext: 0000000000000000
+	UseD3D11Context: 0000000000000000
+OpenCL system device count: 1
+	Found OpenCL device Name: Intel(R) HD Graphics 5500 supportsSSG: 0
+	    No capability restrictions detected - adding device to list
+Finished gpu initialization in 12091.6 ms
+
+____________________________________________________________________________
+
+    Debug database settings:
+        All settings default value
+
+____________________________________________________________________________
+
+    Notable Preferences: 
+        Enable hardware decoding: 1
+        Enable hardware encoding: 1
+        Last used renderer name: OpenCL 
+        Enable display color management:  Not set (will use default value) 
+        Enable Extended Dynamic Range Monitoring:  Not set (will use default value) 
+        Write clip markers to XMP:  Not set (will use default value) 
+        Enable growing files:  Not set (will use default value) 
+        Missing font replacement:  Not set (will use default value) 
+
